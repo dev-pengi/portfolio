@@ -231,10 +231,7 @@ body {
 
 .home .content {
     height: max-content;
-    min-height: 100vh
-}
-
-.home .content {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,7 +271,7 @@ body {
 
     .home .right {
         max-width: 400px;
-        /* margin-top: 20px; */
+        margin-top: 60px;
         width: 100%;
     }
 
@@ -286,6 +283,7 @@ body {
         width: 100%;
         align-items: center;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .home .left .text2 {
@@ -324,7 +322,6 @@ section .title {
     flex-direction: column;
     background-color: #fff;
     color: var(--dark);
-    box-shadow: 0 0 12px -6px black;
     cursor: pointer;
     border-radius: 10px;
     padding: 30px 10px;
@@ -454,10 +451,11 @@ section .title {
     .projects_card {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
+
     .projects_card .card .content_title {
         font-size: 23px;
     }
-    
+
     .projects_card .card .content_description {
         cursor: text;
         font-size: 15px;
