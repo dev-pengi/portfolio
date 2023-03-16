@@ -11,8 +11,7 @@
 
 :root {
     --bg: #fff;
-    --bg2: #da0036;
-    ;
+    --bg2: #da0036;;
     --primary: #695aa6;
     --secondary: #695aa6;
     --blue: #1e549f;
@@ -20,6 +19,10 @@
     --dark: #212529;
     --gray: #6c757d;
     --gray-dark: #393e46;
+}
+
+a {
+    color: currentColor;
 }
 
 body {
@@ -372,7 +375,7 @@ section .title {
 .projects_card {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 20px;
+    gap: 20px;
     margin: 30px 0;
 }
 
@@ -427,6 +430,11 @@ section .title {
     cursor: text;
     font-size: 15px;
     margin: 0 10px;
+}
+
+.projects_card .card .content_description a {
+    color: #00ecfd;
+    text-decoration: underline;
 }
 
 .projects_card .card .content_title:hover {
